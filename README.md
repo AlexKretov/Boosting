@@ -78,8 +78,9 @@
 
 **Результаты**  
 Базовые модели (параметры по умолчанию)  
-|-------|------|-------|-------|---|
+
 |Encoding	|Model|	ROC-AUC|	PR-AUC|	F1|
+|-------|------|-------|-------|---|
 |onehot|	GradientBoosting|	0.9547	|0.1640	|0.3074|
 |onehot	|XGBoost	|0.9543	|0.1623	|0.3076|
 |onehot	|CatBoost	|0.9549	|0.1641	|0.3077|
@@ -93,7 +94,8 @@
 |target	|CatBoost	|0.9551	|0.1647	|0.3077|
 |target	|LightGBM	|0.9545	|0.1642	|0.3076|
 Настроенные модели (после Optuna)
-Encoding	Model	ROC-AUC	PR-AUC	F1
+|Encoding	|Model|	ROC-AUC|	PR-AUC|	F1|
+|-------|------|-------|-------|---|
 onehot	GradientBoosting_tuned	0.9553	0.1644	0.3077
 onehot	XGB_tuned	0.9547	0.1645	0.3078
 onehot	LGBM_tuned	0.9547	0.1633	0.3067

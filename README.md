@@ -109,8 +109,9 @@
 |target	|GradientBoosting_tuned	|0.9545	|0.1633	|0.3077|
 |target	|XGB_tuned	|0.9553	|0.1644	|0.3077|
 |target	|LGBM_tuned	|0.9553	|0.1661	|0.3075|
-|target	|CATBoost_tuned	|0.9552	|0.1667	|0.3078|
-Выводы:  
+|target	|CATBoost_tuned	|0.9552	|0.1667	|0.3078|  
+
+**Выводы:**  
 
 Настройка гиперпараметров дала небольшой прирост ROC‑AUC (до ~0.9556).  
 

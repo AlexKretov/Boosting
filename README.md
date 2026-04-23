@@ -101,7 +101,7 @@
 |onehot|	GradientBoosting_tuned	|0.9553	|0.1644	|0.3077|
 |onehot	|XGB_tuned	|0.9547	|0.1645	|0.3078|
 |onehot	|LGBM_tuned	|0.9547	|0.1633	|0.3067|
-|onehot	|CATBoost_tuned	|0.9554|	|0.1664|	0.3077|
+|onehot	|CATBoost_tuned	|0.9554|0.1664|	0.3077|
 |label	|GradientBoosting_tuned	|0.9546	|0.1233	|0.3077|
 |label	|XGB_tuned	|0.9551	|0.1660	|0.3077|
 |label	|LGBM_tuned	|0.9554	|0.1671	|0.3077|

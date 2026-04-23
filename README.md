@@ -124,7 +124,7 @@
 
 |Базовые модели|	Настроенные модели|
 |--------------|--------------------|
-|![image](models/artifacts/Default_Models_-_label_encoding.png)|![image](models/artifacts/Default_Models_-_label_encoding.png)|
+|![image](models/artifacts/Default_Models_-_label_encoding.png)|![image](models/artifacts/Tuned_Models_-_label_encoding.png)|
 
 **Просмотр логов в MLflow**
 Все эксперименты логируются в локальную директорию mlruns/.

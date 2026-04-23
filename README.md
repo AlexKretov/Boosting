@@ -84,15 +84,14 @@
 |onehot	|XGBoost	|0.9543	|0.1623	|0.3076|
 |onehot	|CatBoost	|0.9549	|0.1641	|0.3077|
 |onehot	|LightGBM	|0.9545	|0.1648	|0.3076|
-|-------|---------|-------|-------|------|
 |label	|GradientBoosting	|0.9549	|0.1646	|0.3073|
-label	XGBoost	0.9550	0.1662	0.3076
-label	CatBoost	0.9550	0.1643	0.3076
-label	LightGBM	0.9548	0.1673	0.3077
-target	GradientBoosting	0.9548	0.1649	0.3071
-target	XGBoost	0.9544	0.1648	0.3076
-target	CatBoost	0.9551	0.1647	0.3077
-target	LightGBM	0.9545	0.1642	0.3076
+|label	|XGBoost	|0.9550	|0.1662	|0.3076|
+|label	|CatBoost	|0.9550	|0.1643	|0.3076|
+|label	|LightGBM	|0.9548	|0.1673	|0.3077|
+|target	|GradientBoosting	|0.9548	|0.1649	|0.3071|
+|target	|XGBoost	|0.9544	|0.1648	|0.3076|
+|target	|CatBoost	|0.9551	|0.1647	|0.3077|
+|target	|LightGBM	|0.9545	|0.1642	|0.3076|
 Настроенные модели (после Optuna)
 Encoding	Model	ROC-AUC	PR-AUC	F1
 onehot	GradientBoosting_tuned	0.9553	0.1644	0.3077

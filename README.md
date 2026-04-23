@@ -21,7 +21,7 @@
 **Дисбаланс классов:** около 1.5% мошеннических операций.
 
 ## Структура проекта
-.
+.  
 ├── data/  
 │ └── raw/  
 │ └── nigerian_mobile_money_full.parquet # основной файл данных  
@@ -38,52 +38,54 @@
 
 ## Установка и настройка
 
-1. **Клонируйте репозиторий** и перейдите в папку проекта.
+1. **Клонируйте репозиторий** и перейдите в папку проекта.  
 
-2. **Создайте виртуальное окружение** (рекомендуется Python 3.11):
+2. **Создайте виртуальное окружение** (рекомендуется Python 3.11):  
 
-   python -m venv venv
-   source venv/bin/activate      # Linux/macOS
-   venv\Scripts\activate         # Windows
+   python -m venv venv  
+   source venv/bin/activate      # Linux/macOS  
+   venv\Scripts\activate         # Windows  
 
-3. **Установка зависимостей** из файла requirements.txt:  
-   pip install -r requirements.txt
-4. **Скачайте данные** и поместите файл nigerian_mobile_money_full.parquet в папку data/raw/.
-Ссылка на скачивание: HuggingFace Dataset https://huggingface.co/datasets/electricsheepafrica/africa-financial-inclusion-nigeria
-Запуск
-Весь код находится в ноутбуке notebooks/fate_eda.ipynb.
-Откройте его в Jupyter Lab / Jupyter Notebook и выполните ячейки последовательно.
+3. **Установка зависимостей** из файла requirements.txt:   
+   pip install -r requirements.txt  
+4. **Скачайте данные** и поместите файл nigerian_mobile_money_full.parquet в папку data/raw/.  
+Ссылка на скачивание: HuggingFace Dataset https://huggingface.co/datasets/electricsheepafrica/africa-financial-inclusion-nigeria  
+Запуск  
+Весь код находится в ноутбуке notebooks/fate_eda.ipynb.  
+Откройте его в Jupyter Lab / Jupyter Notebook и выполните ячейки последовательно.  
 
-Что делает ноутбук:
+Что делает ноутбук:  
 
-Загружает данные и проводит EDA (сохраняет графики в reports/figures/)
+Загружает данные и проводит EDA (сохраняет графики в reports/figures/)  
 
-Создаёт временные и числовые признаки
+Создаёт временные и числовые признаки  
 
-Применяет три метода кодирования категориальных признаков:
+Применяет три метода кодирования категориальных признаков:  
 
-One‑Hot Encoding
+- One‑Hot Encoding  
 
-Label Encoding (OrdinalEncoder)
+- Label Encoding (OrdinalEncoder)  
 
-Target Encoding
+- Target Encoding  
 
-Для каждого метода обучаются четыре модели градиентного бустинга с параметрами по умолчанию
+Для каждого метода обучаются четыре модели градиентного бустинга с параметрами по умолчанию  
 
-Настраивает гиперпараметры каждой модели с помощью Optuna (с ограничением по времени и балансировкой обучающих фолдов)
+Настраивает гиперпараметры каждой модели с помощью Optuna (с ограничением по времени и балансировкой обучающих фолдов)  
 
-Сравнивает качество моделей (ROC‑AUC, PR‑AUC, F1)
+Сравнивает качество моделей (ROC‑AUC, PR‑AUC, F1)  
 
-Логирует все эксперименты в MLflow
+Логирует все эксперименты в MLflow  
 
-Результаты
-Базовые модели (параметры по умолчанию)
-Encoding	Model	ROC-AUC	PR-AUC	F1
-onehot	GradientBoosting	0.9547	0.1640	0.3074
-onehot	XGBoost	0.9543	0.1623	0.3076
-onehot	CatBoost	0.9549	0.1641	0.3077
-onehot	LightGBM	0.9545	0.1648	0.3076
-label	GradientBoosting	0.9549	0.1646	0.3073
+**Результаты**  
+Базовые модели (параметры по умолчанию)  
+|-------|------|-------|-------|---|
+|Encoding	|Model|	ROC-AUC|	PR-AUC|	F1|
+|onehot|	GradientBoosting|	0.9547	|0.1640	|0.3074|
+|onehot	|XGBoost	|0.9543	|0.1623	|0.3076|
+|onehot	|CatBoost	|0.9549	|0.1641	|0.3077|
+|onehot	|LightGBM	|0.9545	|0.1648	|0.3076|
+|-------|---------|-------|-------|------|
+|label	|GradientBoosting	|0.9549	|0.1646	|0.3073|
 label	XGBoost	0.9550	0.1662	0.3076
 label	CatBoost	0.9550	0.1643	0.3076
 label	LightGBM	0.9548	0.1673	0.3077

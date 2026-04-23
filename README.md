@@ -122,9 +122,11 @@
 Визуализация сравнения моделей
 Пример для Label Encoding:
 
-Базовые модели	Настроенные модели
-https://models/artifacts/Default_Models_-_label_encoding.png	https://models/artifacts/Tuned_Models_-_label_encoding.png
-Просмотр логов в MLflow
+|Базовые модели|	Настроенные модели|
+|--------------|--------------------|
+|![image](models/artifacts/Default_Models_-_label_encoding.png)|![image](models/artifacts/Default_Models_-_label_encoding.png)|
+
+**Просмотр логов в MLflow**
 Все эксперименты логируются в локальную директорию mlruns/.
 Чтобы просмотреть метрики, параметры и артефакты через веб‑интерфейс MLflow, выполните в терминале (находясь в корне проекта):
 

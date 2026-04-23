@@ -1,0 +1,14 @@
+artifact_uri: file:///e:/Data/OTUS/homework/boosting/notebooks/../mlruns/438428238951146523/4851a40bfde24d01995c770cd7745f01/artifacts
+end_time: 1776942203703
+entry_point_name: ''
+experiment_id: '438428238951146523'
+lifecycle_stage: active
+run_id: 4851a40bfde24d01995c770cd7745f01
+run_name: onehot_XGB_tuned_test_eval
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1776942203674
+status: 3
+tags: []
+user_id: Admin

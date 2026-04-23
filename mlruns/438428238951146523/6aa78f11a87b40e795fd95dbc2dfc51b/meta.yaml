@@ -1,0 +1,14 @@
+artifact_uri: file:///e:/Data/OTUS/homework/boosting/notebooks/../mlruns/438428238951146523/6aa78f11a87b40e795fd95dbc2dfc51b/artifacts
+end_time: 1776943307029
+entry_point_name: ''
+experiment_id: '438428238951146523'
+lifecycle_stage: active
+run_id: 6aa78f11a87b40e795fd95dbc2dfc51b
+run_name: target_LightGBM
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1776943296449
+status: 3
+tags: []
+user_id: Admin

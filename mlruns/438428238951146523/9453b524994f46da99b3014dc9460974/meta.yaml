@@ -1,0 +1,14 @@
+artifact_uri: file:///e:/Data/OTUS/homework/boosting/notebooks/../mlruns/438428238951146523/9453b524994f46da99b3014dc9460974/artifacts
+end_time: 1776942186157
+entry_point_name: ''
+experiment_id: '438428238951146523'
+lifecycle_stage: active
+run_id: 9453b524994f46da99b3014dc9460974
+run_name: CATBoost_tuned_onehot_optuna_balanced
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1776942182782
+status: 3
+tags: []
+user_id: Admin

@@ -1,0 +1,10 @@
+artifact_location: file:///e:/Data/OTUS/homework/boosting/notebooks/../mlruns/438428238951146523/models/m-aa2cc8cd44494487b9098d9a9dcbf2a8/artifacts
+creation_timestamp: 1776941252955
+experiment_id: '438428238951146523'
+last_updated_timestamp: 1776941256001
+model_id: m-aa2cc8cd44494487b9098d9a9dcbf2a8
+model_type: null
+name: model
+source_run_id: d9eec8446fee450694d1e29daaf3e0ea
+status: 2
+status_message: null

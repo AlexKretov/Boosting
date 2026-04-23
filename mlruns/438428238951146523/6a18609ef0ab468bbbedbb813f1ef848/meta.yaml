@@ -1,0 +1,14 @@
+artifact_uri: file:///e:/Data/OTUS/homework/boosting/notebooks/../mlruns/438428238951146523/6a18609ef0ab468bbbedbb813f1ef848/artifacts
+end_time: 1776944125417
+entry_point_name: ''
+experiment_id: '438428238951146523'
+lifecycle_stage: active
+run_id: 6a18609ef0ab468bbbedbb813f1ef848
+run_name: LGBM_tuned_target_optuna_balanced
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1776944122310
+status: 3
+tags: []
+user_id: Admin

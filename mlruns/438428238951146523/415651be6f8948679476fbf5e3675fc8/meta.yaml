@@ -1,0 +1,14 @@
+artifact_uri: file:///e:/Data/OTUS/homework/boosting/notebooks/../mlruns/438428238951146523/415651be6f8948679476fbf5e3675fc8/artifacts
+end_time: 1776942291951
+entry_point_name: ''
+experiment_id: '438428238951146523'
+lifecycle_stage: active
+run_id: 415651be6f8948679476fbf5e3675fc8
+run_name: label_CatBoost
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1776942261833
+status: 3
+tags: []
+user_id: Admin

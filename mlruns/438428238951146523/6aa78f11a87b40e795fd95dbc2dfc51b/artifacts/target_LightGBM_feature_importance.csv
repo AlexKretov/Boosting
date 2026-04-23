@@ -1,0 +1,16 @@
+feature,importance
+remainder__balance_after_ngn,617
+remainder__balance_to_amount_ratio,464
+remainder__amount_ngn,390
+remainder__hour,367
+remainder__fee_to_amount_ratio,329
+remainder__day_of_week,263
+cat__transaction_type,164
+cat__channel,93
+cat__kyc_tier,90
+cat__device_os,89
+remainder__is_round_amount,66
+remainder__fee_ngn,44
+remainder__churn_30d,17
+remainder__is_night,7
+remainder__is_weekend,0

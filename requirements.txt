@@ -1,0 +1,36 @@
+
+```text
+# requirements.txt
+# Python 3.11
+
+# Core data processing
+pandas>=2.0.0
+numpy>=1.24.0
+pyarrow>=12.0.0          # для чтения parquet
+
+# Machine Learning
+scikit-learn>=1.5.0
+xgboost>=2.0.0
+catboost>=1.2.5
+lightgbm>=4.0.0
+
+# Hyperparameter tuning
+optuna>=3.5.0
+
+# Categorical encoding
+category-encoders>=2.6.0
+
+# Experiment tracking
+mlflow>=2.10.0
+
+# Visualization
+matplotlib>=3.7.0
+seaborn>=0.12.0
+
+# Jupyter environment
+jupyterlab>=4.0.0
+ipywidgets>=8.0.0
+notebook>=7.0.0
+
+# Additional utilities
+tqdm>=4.65.0

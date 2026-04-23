@@ -1,0 +1,23 @@
+artifact_path: file:///e:/Data/OTUS/homework/boosting/notebooks/../mlruns/438428238951146523/models/m-0e7bdf85394c49d69d19d357e5bb6e25/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.11.15
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.6.0
+    skops_trusted_types: null
+mlflow_version: 3.10.1
+model_id: m-0e7bdf85394c49d69d19d357e5bb6e25
+model_size_bytes: 2150011
+model_uuid: m-0e7bdf85394c49d69d19d357e5bb6e25
+prompts: null
+run_id: 45d253929c5a4ebfa133aae548e7e746
+utc_time_created: '2026-04-23 10:53:37.138011'

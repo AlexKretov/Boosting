@@ -1,0 +1,35 @@
+data/
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual environment
+venv/
+env/
+ENV/
+
+# Streamlit
+.streamlit/
+
+articles_metadata.json
+# PDF файлы
+*.pdf
+
+# Pickle файлы
+*.pkl
+*.pickle
+
+# Временные файлы
+*.tmp
+*.log
+.DS_Store
+
+# База данных
+*.db
+*.sqlite
+*.sqlite3
+
+# Локальные настройки
+.env

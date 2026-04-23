@@ -1,0 +1,16 @@
+feature,importance
+cat__transaction_type,0.9614225
+remainder__is_round_amount,0.0036310176
+remainder__amount_ngn,0.0032978714
+remainder__is_night,0.0032483146
+cat__device_os,0.0031612823
+cat__channel,0.002957759
+remainder__fee_ngn,0.0028522476
+remainder__churn_30d,0.0028483027
+remainder__balance_after_ngn,0.0028463372
+remainder__balance_to_amount_ratio,0.0028072018
+remainder__day_of_week,0.0027574713
+cat__kyc_tier,0.002753102
+remainder__fee_to_amount_ratio,0.0027222792
+remainder__hour,0.0026944259
+remainder__is_weekend,0.0

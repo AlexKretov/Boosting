@@ -1,0 +1,14 @@
+artifact_uri: file:///e:/Data/OTUS/homework/boosting/notebooks/../mlruns/438428238951146523/012cf3de2d2e4c9fb0f91c0d3e3045a0/artifacts
+end_time: 1776942197592
+entry_point_name: ''
+experiment_id: '438428238951146523'
+lifecycle_stage: active
+run_id: 012cf3de2d2e4c9fb0f91c0d3e3045a0
+run_name: onehot_GradientBoosting_tuned_test_eval
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1776942197561
+status: 3
+tags: []
+user_id: Admin

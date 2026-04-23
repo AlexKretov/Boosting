@@ -93,28 +93,30 @@
 |target	|XGBoost	|0.9544	|0.1648	|0.3076|
 |target	|CatBoost	|0.9551	|0.1647	|0.3077|
 |target	|LightGBM	|0.9545	|0.1642	|0.3076|
-Настроенные модели (после Optuna)
+
+Настроенные модели (после Optuna)  
+
 |Encoding	|Model|	ROC-AUC|	PR-AUC|	F1|
 |-------|------|-------|-------|---|
-onehot	GradientBoosting_tuned	0.9553	0.1644	0.3077
-onehot	XGB_tuned	0.9547	0.1645	0.3078
-onehot	LGBM_tuned	0.9547	0.1633	0.3067
-onehot	CATBoost_tuned	0.9554	0.1664	0.3077
-label	GradientBoosting_tuned	0.9546	0.1233	0.3077
-label	XGB_tuned	0.9551	0.1660	0.3077
-label	LGBM_tuned	0.9554	0.1671	0.3077
-label	CATBoost_tuned	0.9556	0.1688	0.3077
-target	GradientBoosting_tuned	0.9545	0.1633	0.3077
-target	XGB_tuned	0.9553	0.1644	0.3077
-target	LGBM_tuned	0.9553	0.1661	0.3075
-target	CATBoost_tuned	0.9552	0.1667	0.3078
-Выводы:
+|onehot|	GradientBoosting_tuned	|0.9553	|0.1644	|0.3077|
+|onehot	|XGB_tuned	|0.9547	|0.1645	|0.3078|
+|onehot	|LGBM_tuned	|0.9547	|0.1633	|0.3067|
+|onehot	|CATBoost_tuned|	|0.9554|	|0.1664|	0.3077|
+|label	|GradientBoosting_tuned	|0.9546	|0.1233	|0.3077|
+|label	|XGB_tuned	|0.9551	|0.1660	|0.3077|
+|label	|LGBM_tuned	|0.9554	|0.1671	|0.3077|
+|label	|CATBoost_tuned	|0.9556	|0.1688	|0.3077|
+|target	|GradientBoosting_tuned	|0.9545	|0.1633	|0.3077|
+|target	|XGB_tuned	|0.9553	|0.1644	|0.3077|
+|target	|LGBM_tuned	|0.9553	|0.1661	|0.3075|
+|target	|CATBoost_tuned	|0.9552	|0.1667	|0.3078|
+Выводы:  
 
-Настройка гиперпараметров дала небольшой прирост ROC‑AUC (до ~0.9556).
+Настройка гиперпараметров дала небольшой прирост ROC‑AUC (до ~0.9556).  
 
-Лучший показатель PR‑AUC (0.1688) показал CatBoost с Label Encoding.
+Лучший показатель PR‑AUC (0.1688) показал CatBoost с Label Encoding.  
 
-Все модели демонстрируют близкие результаты; выбор финальной модели может основываться на скорости инференса или интерпретируемости.
+Все модели демонстрируют близкие результаты; выбор финальной модели может основываться на скорости инференса или интерпретируемости.  
 
 Визуализация сравнения моделей
 Пример для Label Encoding:

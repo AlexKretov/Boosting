@@ -22,19 +22,19 @@
 
 ## Структура проекта
 .
-├── data/
-│ └── raw/
-│ └── nigerian_mobile_money_full.parquet # основной файл данных
-├── notebooks/
-│ └── fate_eda.ipynb # ноутбук с полным пайплайном
-├── models/
-│ └── artifacts/ # сохранённые графики и отчёты
-│ ├── Default_Models_-label_encoding.png
-│ ├── Tuned_Models-_label_encoding.png
-│ └── final_report_encoding_comparison.md
-├── mlruns/ # директория логов MLflow (создаётся автоматически)
-├── requirements.txt
-└── README.md
+├── data/  
+│ └── raw/  
+│ └── nigerian_mobile_money_full.parquet # основной файл данных  
+├── notebooks/  
+│ └── fate_eda.ipynb # ноутбук с полным пайплайном  
+├── models/  
+│ └── artifacts/ # сохранённые графики и отчёты  
+│ ├── Default_Models_-label_encoding.png  
+│ ├── Tuned_Models-_label_encoding.png  
+│ └── final_report_encoding_comparison.md  
+├── mlruns/ # директория логов MLflow (создаётся автоматически)  
+├── requirements.txt  
+└── README.md  
 
 ## Установка и настройка
 
